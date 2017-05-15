@@ -1,19 +1,10 @@
-![logo](https://static.creatordev.io/logo-md-s.svg)
+Duncan's webhook/aws experiments
+Evolved from Creator sesame webapp http://github.com/creator/webapp-sesame
 
-# Sesame - Creator garage door opener controller
-* https://info.ba.imgtec.org/display/IM/WEB+API+specification
-* https://info.ba.imgtec.org/pages/viewpage.action?spaceKey=IM&title=Sesame+-+Creator+garage+door+opener+controller
-* https://tools.ietf.org/html/rfc6750
+I've replaced the Creator device server calls with calls to AWSIoT
+As much of the original sesame is still in place but I haven't implemented a subscription to open/closed door events
 
----
-
-### Keywords:
-* HATEOAS
-* Heroku
-* mLab
-
-## Architecture
-![Architecture](images/sesame1.jpg)
+Setup instructions from the original webapp-sesame app should still work, I've been running on a windows 7 machine using ngrok
 
 ## Jump Start
 
